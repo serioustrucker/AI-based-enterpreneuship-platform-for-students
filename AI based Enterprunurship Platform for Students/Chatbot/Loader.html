@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader</title>
+    <style>
+        *{
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: white;
+        }
+
+        .loader{
+            width: 80px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: white;
+            position: relative;
+            animation: circleloader 3s linear infinite;
+            align-items: center;
+        }
+
+        @keyframes circleloader {
+            100% {
+                rotate: 360deg;
+            }
+        }
+
+        .one{
+            position: absolute;
+            width: 0.5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #ffbd59;
+            left: 36px;
+            top: 11px;
+        }
+
+        .two{
+            position: absolute;
+            width: 0.5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #ffbd59;
+            left: 54px;
+            top: 19px;
+        }
+
+        .three{
+            position: absolute;
+            width: 0.5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #ffbd59;
+            left: 62px;
+            top: 36px;
+        }
+
+        .four{
+            position: absolute;
+            width: 0.5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #ffbd59;
+            left: 54px;
+            top: 54px;
+        }
+
+        .five{
+            position: absolute;
+            width: 0.5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #ffbd59;
+            left: 36px;
+            top: 62px;
+        }
+
+        .six{
+            position: absolute;
+            width: 0.5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #ffbd59;
+            left: 19px;
+            top: 54px;
+        }
+        .seven{
+            position: absolute;
+            width: 0.5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #ffbd59;
+            left: 11px;
+            top: 36px;
+        }
+        .eight{
+            position: absolute;
+            width: 0.5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #ffbd59;
+            left: 19px;
+            top: 19px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+        <div class="seven"></div>
+        <div class="eight"></div>
+    </div>
+</body>
+</html>
